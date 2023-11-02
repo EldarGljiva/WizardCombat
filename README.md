@@ -4,7 +4,7 @@
 
 Wizard Combat is a small project that I created using JavaScript to test and apply my knowledge of the language. In this project, I focused on the behavior of the app, prioritizing functionality over design. 
 
-This project allows you to experience a magical duel against Merlin, the Male Wizard. It's an interactive game that challenges your reflexes and quick decision-making. In this duel, one key, 'A,' randomly appears on the screen out of several others, representing your attack. Timing is crucial; pressing the 'A' key on time deals damage to Merlin and continues until you achieve victory.
+This project allows you to experience a magical duel against Merlin, the Male Wizard. It's an interactive game that challenges your reflexes and quick decision-making. In this duel, one key, 'A,' randomly appears on the screen out of several others, representing your attack. Timing is crucial; pressing the 'A' key on time deals damage to Merlin and continues until you achieve victory. To make the experience even more immersive, I added sounds that enhance the overall atmosphere of the game.
 
 ## Game Instructions
 
@@ -26,10 +26,10 @@ May the mightiest wizard claim victory!
 - HTML
 - CSS
 - JavaScript
-- 
+  
 ## What I've Learned
 
-Throughout the development of this project, I enriched my JavaScript knowledge by reading online documentation and experimenting to bring the game to life as I imagined. It was a valuable experience that allowed me to improve my coding skills and create an engaging interactive game. Importantly, I challenged myself by not using any frameworks like jQuery; instead, I wanted to test my ability to achieve the app's behavior using pure JavaScript.
+Throughout the development of this project, I enriched my JavaScript knowledge by reading online documentation and experimenting to bring the game to life as I imagined. It was a valuable experience that allowed me to improve my coding skills and create an engaging interactive game. Importantly, I challenged myself by not using any frameworks like jQuery; instead, I wanted to test my ability to achieve the app's behavior using pure JavaScript. During development and while reading online documentation, I discovered the SweetAlert library, which enhanced the user experience with stylish alerts. It's been an exciting journey of learning and growth.
 
 ## How to Start
 
