@@ -2,6 +2,7 @@ onLoad = swal(
   "Instructions",
   "Welcome to Wizard's Duel!\n\nYou are a wizard facing Merlin, the Male Wizard. Your goal is to defeat him, but be careful! If your health reaches 0, you lose.\n\nTo win, press the key displayed on the screen within a second. Guess right, and victory is yours. Guess wrong, and the duel goes to Merlin.\n\nMay the best wizard prevail!"
 );
+
 //array of random keys that are displayed on screen each second randomly
 const keys = ["A", "B", "C", "D", "E"];
 
@@ -21,6 +22,8 @@ healthProccess();
 
 function healthProccess() {
   document.addEventListener("keydown", function (event) {
+    var click = new Audio("./sounds/click.mp3");
+    click.play();
     handleHealthColorEnemy();
     if (event.key.toUpperCase() === button.textContent) {
       // Get the current male wizard's health
@@ -30,6 +33,8 @@ function healthProccess() {
       // Update the male wizard's health
       maleHealth.textContent = newHealth;
       if (newHealth <= 0) {
+        var win = new Audio("./sounds/win.mp3");
+        win.play();
         swal(
           "Male Wizard is defeated!",
           "Press 'R' to reset the game",
@@ -45,6 +50,8 @@ function healthProccess() {
       ourHealth.textContent = newHealth;
       //if we are defeated
       if (newHealth <= 0) {
+        var lose = new Audio("./sounds/lose.mp3");
+        lose.play();
         swal("You Lost!", "Press 'R' to reset the game", "error");
         document.addEventListener("keydown", function (event) {
           // Check if the pressed key is "R" (uppercase or lowercase)
