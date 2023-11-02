@@ -1,0 +1,50 @@
+.body {
+  background-color: C2D9FF;
+  font-family: "Archivo Black", sans-serif;
+}
+h1 {
+  background: rgb(25, 4, 130);
+  background: radial-gradient(
+    circle,
+    rgba(25, 4, 130, 1) 0%,
+    rgba(119, 82, 254, 1) 100%
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-size: 5rem;
+  text-align: center;
+}
+
+button {
+  background-color: #8e8ffa;
+  border: 1px solid white;
+  color: #fffffe;
+  border-radius: 5px;
+  width: 100px;
+  height: 70px;
+  padding: 5px 5px 5px 5px;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.flex-container-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.flex-container-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 150px;
+}
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
