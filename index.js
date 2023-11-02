@@ -1,6 +1,6 @@
 onLoad = swal(
   "Instructions",
-  "Welcome to Wizard's Duel!\n\nYou are a wizard facing Merlin, the Male Wizard. Your goal is to defeat him, but be careful! If your health reaches 0, you lose.\n\nTo win, press the key displayed on the screen within a second. Guess right, and victory is yours. Guess wrong, and the duel goes to Merlin.\n\nMay the best wizard prevail!"
+  "Welcome to Wizard's Duel!\n\nYou are a wizard facing off against Merlin, the Male Wizard. Your objective is to defeat him, but stay cautious! If your health reaches 0, you'll be defeated.\n\nTo emerge victorious, press the 'A' key when it appears on the screen within one second. Successfully hitting it will deal 2 damage to Merlin, bringing you one step closer to victory. However, if you miss, you'll lose 2 HP.\n\nMay the mightiest wizard claim victory!"
 );
 
 //array of random keys that are displayed on screen each second randomly
