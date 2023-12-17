@@ -19,8 +19,6 @@ To emerge victorious:
 3. If Merlin's health reaches 0, you are the winner.
 4. However, if you miss, you'll lose 2 HP.
 
-May the mightiest wizard claim victory!
-
 ## Technologies Used
 
 - HTML
